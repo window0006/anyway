@@ -1,6 +1,6 @@
 const shell = require('shelljs');
 
-shell.cd('/root/workspace/anyway/server/scripts')
+shell.cd('/root/temp')
 shell.exec('unzip static.zip', (err) => {
   if (err) {
     console.log('unzip error', err);
